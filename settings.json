@@ -1,5 +1,5 @@
 {
-    "commandPrefix": "/",
+    "commandPrefix": ".",
     "debug": false,
     "commandsDir": "Commands",
     "dataDir": "Data",
