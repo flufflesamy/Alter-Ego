@@ -13,9 +13,6 @@ for key in credentials['google']:
     if environ.get('G_' + key.upper()) is not None:
         credentials['google'][key] = environ.get('G_' + key.upper())
 
-print(credentials['discord']['token'])
-print(credentials['google']['project_id'])
-
 formatted_credentials = json.dumps(credentials, indent=4)
 
 # print(formatted_credentials)
@@ -27,6 +24,10 @@ with open('../credentials.json', 'w') as credentials:
     
 with open('../settings.json', 'r', encoding='utf-8-sig') as settings:
     settings = json.load(settings)
+
+for key in settings:
+    if environ.get('S_' + key.upper()) is not None:
+        credentials['google'][key] = environ.get('S_' + key.upper())
 
 formatted_settings = json.dumps(settings, indent=4)
 
