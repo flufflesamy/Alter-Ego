@@ -10,5 +10,4 @@ services:
       # Bind mounts for configuration files
       - ./credentials.json:/home/node/app/credentials.json
       - ./settings.json:/home/node/app/settings.json
-      - ./alter-ego.log:/home/node/app/alter-ego.log
     restart: unless-stopped
