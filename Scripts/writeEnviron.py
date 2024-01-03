@@ -25,9 +25,11 @@ with open('../credentials.json', 'w') as credentials:
 with open('../settings.json', 'r', encoding='utf-8-sig') as settings:
     settings = json.load(settings)
 
+print(settings['commandPrefix'])
+
 for key in settings:
     if environ.get('S_' + key.upper()) is not None:
-        credentials['google'][key] = environ.get('S_' + key.upper())
+        settings[key] = environ.get('S_' + key.upper())
 
 formatted_settings = json.dumps(settings, indent=4)
 
