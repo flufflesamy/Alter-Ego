@@ -4,7 +4,7 @@ from os import environ
 def write():
     # Write Credentials
 
-    with open('../credentials.json', 'r') as credentials:
+    with open('/home/node/app/credentials.json', 'r') as credentials:
         credentials = json.load(credentials)
 
     if environ.get('DISCORD_TOKEN') is not None:
@@ -16,12 +16,12 @@ def write():
 
     formatted_credentials = json.dumps(credentials, indent=4)
 
-    with open('../credentials.json', 'w') as credentials:
+    with open('/home/node/app/credentials.json', 'w') as credentials:
         credentials.write(formatted_credentials)
 
     # Write Settings
         
-    with open('../settings.json', 'r', encoding='utf-8-sig') as settings:
+    with open('/home/node/app/settings.json', 'r', encoding='utf-8-sig') as settings:
         settings = json.load(settings)
 
     print(settings['commandPrefix'])
@@ -32,5 +32,5 @@ def write():
 
     formatted_settings = json.dumps(settings, indent=4)
 
-    with open('../settings.json', 'w') as settings:
+    with open('/home/node/app/settings.json', 'w') as settings:
         settings.write(formatted_settings)
