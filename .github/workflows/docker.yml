@@ -43,9 +43,9 @@ jobs:
 
       - name: Image Tag
         id: tag
-        if: ${{ github.ref_type == 'tag' }}
+        if: github.ref_type == 'tag'
         run: |
-          TAG=$(echo "${{ steps.meta.outputs.tag-names }}" | head -n1)
+          TAG=${DOCKER_METADATA_OUTPUT_VERSION}
           echo "tag=$TAG" >> $GITHUB_OUTPUT
 
       - name: Set up QEMU
