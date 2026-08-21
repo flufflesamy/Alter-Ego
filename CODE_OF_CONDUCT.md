@@ -10,6 +10,7 @@ SPDX-FileCopyrightText: 2020 Mozilla <mozilla.org>
 SPDX-FileCopyrightText: 2025 GNOME Code of Conduct Committee <conduct.gnome.org>
 SPDX-FileCopyrightText: 2026 Fedora Project <fedoraproject.org>
 SPDX-FileCopyrightText: 2026 Amy Poon <amy@amypoon.me>
+SPDX-FileCopyrightText: 2026 Ms. VBLANK <alteregomolly@pm.me>
 
 SPDX-License-Identifier: CC-BY-SA-4.0
 -->
@@ -30,21 +31,22 @@ This Code of Conduct applies to all Alter Ego community spaces, including, but n
 
 - Documentation and tutorials - MsVBLANK.github.io/Alter-Ego
 - Code repositories - github.com/MsVBLANK/Alter-Ego
-- Chat and forums - GitHub Discussions, Alter Ego Help Discord
+- Chat and forums - GitHub Discussions, Alter Ego Support Discord server
 - Any other channels or groups which exist in order to discuss Alter Ego project activities
 
-Communication channels and private conversations that are normally out of scope may be considered in scope if a
+Communication channels and private conversations that are normally out of scope may be considered in scope if an
 Alter Ego participant is being stalked or harassed. Social media conversations may be considered in-scope if the
-incident occurred under an Alter Ego event hashtag, or when an official Alter Ego account on social media is tagged, or
-within any other discussion about Alter Ego. Alter Ego maintainers reserve the right to take actions against
+incident occurred within any discussion about Alter Ego. Alter Ego maintainers reserve the right to take actions against
 behaviors that happen in any context, if they are deemed to be relevant to the Alter Ego project and its participants.
 
-All participants in Alter Ego community spaces are subject to the Code of Conduct. This includes maintainers, contributors, contribution reviewers, issue reporters, Alter Ego users, and anyone participating in discussion in
+All participants in Alter Ego community spaces are subject to the Code of Conduct. This includes maintainers,
+contributors, contribution reviewers, issue reporters, Alter Ego users, and anyone participating in discussion in
 Alter Ego community spaces.
 
 ## Reporting an Incident
 
-If you believe that someone is violating the Code of Conduct, or have any other concerns, please contact the Code of Conduct committee.
+If you believe that someone is violating the Code of Conduct, or have any other concerns, please contact
+an active Alter Ego maintainer.
 
 ## Our Standards
 
@@ -117,9 +119,10 @@ what that means, we've provided a list of examples of behaviors that are inappro
 
 ### Safety versus Comfort
 
-The Alter Ego community prioritizes marginalized people's safety over privileged people's comfort, for example in situations involving:
+The Alter Ego community prioritizes marginalized people's safety over privileged people's comfort,
+for example in situations involving:
 
-- Reverse"-isms, including "reverse racism," "reverse sexism," and "cisphobia"
+- "Reverse"-isms, including "reverse racism," "reverse sexism," and "cisphobia"
 - Reasonable communication of boundaries, such as "leave me alone," "go away," or "I'm not discussing this with you."
 - Criticizing racist, sexist, cissexist, or otherwise oppressive behavior or assumptions
 - Communicating boundaries or criticizing oppressive behavior in a "tone" you don't find congenial
@@ -133,11 +136,12 @@ those involved. Nor would unwanted sexual attention be tolerated, whatever someo
 Members of our community have the right to expect that participants in the project will uphold these standards.
 
 If a participant engages in behavior that violates this code of conduct, Alter Ego maintainers may take any action they
-deem appropriate. Examples of consequences are outlined in the Committee Procedures Guide.
+deem appropriate.
 
 ### Supporting Diversity
 
-The Alter Ego project values diversity. If you are new to conversations about diversity, here are our guidelines for supporting marginalized groups in our community:
+The Alter Ego project values diversity. If you are new to conversations about diversity, here are our guidelines for
+supporting marginalized groups in our community:
 
 1. Acknowledge that the lived experiences of marginalized groups are valid. We acknowledge that each community member
    will experience the world differently, based on their past experiences, background and identity. We encourage you to
@@ -170,9 +174,6 @@ The Alter Ego project values diversity. If you are new to conversations about di
    community to take action and correct these issues. All community change requires resources (such as time, influence,
    or money). We acknowledge that such resources will be spent towards correcting past bias and discrimination.
 
-## Procedure for Handling Incidents
-
-<!--TODO: Figure this out-->
 
 ## License
 
@@ -180,9 +181,12 @@ The Alter Ego Code of Conduct is licensed under a [Creative Commons Attribution-
 
 ## Attribution
 
-The Alter Ego Code of Conduct is based on the [GNOME Code of Conduct](https://conduct.gnome.org/), which is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License].
+The Alter Ego Code of Conduct is based on the [GNOME Code of Conduct](https://conduct.gnome.org/), which is licensed
+under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-sa/3.0/).
 
-The above section [Supporting Diversity](https://conduct.gnome.org/supporting-diversity/) is licensed under the [Creative Commons Attribution 3.0 Unported License] by Sage Sharp of Otter Tech.
+The above section [Supporting Diversity](#supporting-diversity) is licensed under the
+[Creative Commons Attribution 3.0 Unported License](https://creativecommons.org/licenses/by/3.0/)
+by Sage Sharp of Otter Tech.
 
 Additional language was incorporated and modified from the following Codes of Conduct:
 
